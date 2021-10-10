@@ -9,7 +9,7 @@ import {
   FaUserGraduate,
   FaInfoCircle,
   FaMapMarkerAlt,
-  FaCalendar,
+  FaCalendar
 } from "react-icons/fa";
 
 export function Container() {
@@ -126,4 +126,16 @@ export function CardTwo() {
       </div>
     </div>
   );
+}
+
+
+export function CardThree () {
+  return (
+    <div className="card-container">
+      <div className="card-nav">
+        <h2>Cargo Details</h2>
+        <p>Dangerous Cargo (Chemicals, Battery)</p>
+      </div>
+    </div>
+  )
 }

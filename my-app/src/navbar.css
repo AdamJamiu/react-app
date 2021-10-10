@@ -3,7 +3,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 16em;
-    background-color: #0746A7;
+    background-color: #0747A6;
     color: #fff;
     width: 100%;
 }
@@ -19,7 +19,7 @@ ul{
 
 .search-box{
     width: 400px;
-    background-color: #3A6BB7;
+    background-color: #396BB8;
     border: none;
     text-align: left;
     padding: .8em 0 .8em 2em;

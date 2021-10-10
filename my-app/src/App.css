@@ -1,3 +1,8 @@
+h3{
+    margin: 0;
+    padding: 0;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -105,17 +110,33 @@
 .row-input{
     background-color: #F3F3F3;
     border: none;
+    padding-left: 3em;  
 }
 
 .top{
-    padding: 1em 14em 1em 1em;
+    padding: 1em 12em 1em 3.5em;
 }
 
 .bottom{
-    padding: 1em 9.5em 1em 1em;
+    padding: 1em 7.4em 1em 3.5em;
 }
 
-.loc-icon{
+.cal-icon, .loc-icon{
     position: absolute;
-    left: 0;
+    left: 5%;
+    top: 30%;
+}
+
+.row-col{
+    position: relative;
+}
+
+.card-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40em;
+    width: 100%;
+    background-color: red;
 }
