@@ -9,7 +9,7 @@ import {
   FaUserGraduate,
   FaInfoCircle,
   FaMapMarkerAlt,
-  FaCalendar
+  FaCalendar,
 } from "react-icons/fa";
 
 export function Container() {
@@ -86,21 +86,28 @@ export function CardTwo() {
             className="row-input top"
             type="text"
             placeholder="From city or port"
-          ></input>
+          >
+          </input>
+            <FaMapMarkerAlt className="loc-icon" />
         </div>
         <div className="row-col">
           <input
             className="row-input top"
             type="text"
             placeholder="From city or port"
-          ></input>
+          >
+          </input>
+          <FaMapMarkerAlt className="loc-icon" />
+
         </div>
         <div className="row-col">
           <input
             className="row-input bottom"
             type="text"
             placeholder="From city or port"
-          ></input>
+          >
+          </input>
+             <FaCalendar className="cal-icon"/>
         </div>
         <div className="row-col">
           <input
