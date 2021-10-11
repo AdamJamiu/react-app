@@ -140,8 +140,7 @@ h4{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
-    /* gap: 40em; */
+    align-items: flex-start;
     width: 100%;
 }
 
@@ -149,6 +148,8 @@ h4{
     width: 100%;
     font-weight: 700;
     font-size: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 .box2{
@@ -168,11 +169,17 @@ h4{
     font-size: 25px;
     width: 100%;
     margin-bottom: 1em;
-    color: #555;
+    color: #333;
 }
 
+.xtit{
+    font-size: 30px;
+    width: 100%;
+    margin: 0;
+    color: #333;
+}
 .tit{
-    color: #555;
+    color: #333;
     font-size: 22px;
     width: 100%;
     margin: 0;
@@ -239,7 +246,7 @@ h4{
     position: relative;
 }
 
-span{
+.inp-spn{
     position: absolute;
     width: 100%;
     left: 10%;
@@ -251,19 +258,19 @@ span{
     z-index: 9;
 }
 
-.switch{
-    border-radius: 50px;
-    width: 80px;
-    padding: .2em;
-    height: 45px;
-    background: #fff;
-    border: 1px solid #82858C;
+.rwlx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.switch-btn{
-    height: 100%;
-    border-radius: 100%;
+.row2-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1em;
     width: 50%;
-    cursor: pointer;
-    background-color: #0746A7;
+
 }
