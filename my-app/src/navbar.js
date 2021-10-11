@@ -1,6 +1,7 @@
 import React from 'react';
 import './navbar.css';
 import { FaSearch } from "react-icons/fa";
+import Button from '@mui/material/Button';
 
 
 
@@ -18,8 +19,8 @@ export default function Navbar() {
 
         <ul>
             <li className='nav-link'>
-                <button className='btn pry' type='button'>Request Quote</button>
-                <button className='btn success' type='button'>Book Shipment</button>
+            <Button variant="outlined">Request Quote</Button>
+            <Button variant="contained" color='success' ml={3}>Book Shipment</Button>
             </li>
         </ul>
       </nav>
@@ -27,4 +28,25 @@ export default function Navbar() {
   }
   
   
+  // export function Switch () {
+
+  //   function Clicked (){
+  //     // var switchWrap = document.getElementsByClassName('switch');
+  //     var switchBtn = document.getElementsByClassName('switch-btn');
   
+  //     switchBtn.style.background = 'red';
+  //     // if(switchBtn.style.background == '#0746A7') {
+  //     //   switchBtn.style.background = '#fff';
+  
+  //     // }else{
+  //     //   switchBtn.style.background = 'initial';
+  
+  //     // }
+  //   }
+  
+  //   return (
+  //     <div className="switch">
+  //       <div className="switch-btn" onClick={Clicked}></div>
+  //     </div>
+  //   )
+  // }
