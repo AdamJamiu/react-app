@@ -190,24 +190,3 @@ export function CardFour () {
   )
 }
 
-export function Switch () {
-
-  function Clicked (){
-    
-  }
-
-  return (
-    <div className="switch">
-      <div className="switch-btn"></div>
-    </div>
-  )
-}
-
-
-export function DefaultSwitch () {
-  return (
-    <div className="switch">
-      <div className="switch-btn"></div>
-    </div>
-  )
-}
