@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Navbar from "./navbar";
-import { CardOne, CardTwo, Navigator, CardThree } from "./App";
+import { CardOne, CardTwo, Navigator, CardThree, CardFour } from "./App";
 import './index.css';
 
 
@@ -16,6 +16,7 @@ ReactDOM.render(
       <CardOne/>
       <CardTwo/>
       <CardThree/>
+      <CardFour/>
     </div>
   </React.StrictMode>,
   document.getElementById("root")

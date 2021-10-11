@@ -3,6 +3,7 @@ import './navbar.css';
 import { FaSearch } from "react-icons/fa";
 
 
+
 export default function Navbar() {
     return (
       <nav className="navbar">
