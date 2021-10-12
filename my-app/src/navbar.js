@@ -19,8 +19,8 @@ export default function Navbar() {
 
         <ul>
             <li className='nav-link'>
-            <Button variant="outlined">Request Quote</Button>
-            <Button variant="contained" color='success' ml={3}>Book Shipment</Button>
+            <Button variant="outlined" sx={{ mr : 3, color : '#fff', border : '1px solid #fff'}}>Request Quote</Button>
+            <Button variant="contained" color='success' >Book Shipment</Button>
             </li>
         </ul>
       </nav>
